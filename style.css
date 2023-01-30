@@ -1,11 +1,35 @@
-body {
+.body {
     
     background-color: #144272;
     }
 
+    .navbar
+    {background-color: #144272;}
+    
+    .nav-link,
+    .navbar-brand
+    {
+        color: white;
+        cursor: pointer;
+    
+    }
+    
+    .nav-link
+    {
+        margin-right: lem;
+    }
+    
+    .nav.nav-link:hover
+    {color: white;}
+    
+    .navbar-collapse
+    {
+        justify-content: flex-end;
+    }
 
 header {
     background: #0A2647;
+
     border-radius: 5px;
     color: white;
     font-family: 'teko', arial, sans-serif;
@@ -37,9 +61,9 @@ section {
   
 }
 footer {
-    
-    position: fixed;
-    bottom:0;
+ 
+  
+    bottom: 0px;;
     width: 100%;
       background: #0A2647;
     border-radius: 5px;
@@ -49,9 +73,10 @@ footer {
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
+    float: inline-end;
     
   }
-nav,
+
 
 #leftbox {
     float:left;
@@ -61,4 +86,9 @@ nav,
 #rightbox {
     float:right;
     width: 45%;
+}
+
+.background
+{
+  background-color: #144272;
 }
